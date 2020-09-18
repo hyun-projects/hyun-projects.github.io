@@ -46,11 +46,6 @@ html {
 	margin-top: 40px;
 }
 
-.prev{
-	z-index:-10;
-	margin-top: 40px;
-}
-
 #isi_atas{
 	display: inline-block;
 	padding-left: 25px;
@@ -93,22 +88,6 @@ html {
 }
 
 #isi_next:hover{
-	color: #0a192f;
-	background-color: #63ffda;
-}
-
-#isi_prev{
-	font-weight: 100;
-	padding: 10px;
-	border: 2px solid #63ffda;
-	color: #63ffda;
-	text-decoration: none;
-	border-radius:3px;
-	animation: kedip 7s forwards;
-	transition: 0.5s;
-}
-
-#isi_prev:hover{
 	color: #0a192f;
 	background-color: #63ffda;
 }
