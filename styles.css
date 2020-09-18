@@ -4,7 +4,11 @@ html {
 	scroll-behavior: smooth; 
 }
 
-#top2,#blok1, #blok2{
+#blok1{
+	margin-top: 160px;
+}
+
+#blok2{
 	margin-top: 160px;
 }
 
@@ -20,6 +24,15 @@ html {
 }
 
 .isi{
+	justify-content:center;
+	margin: 0 auto;
+	width: 550px;
+	padding: 25px;
+	height: 100%;
+	margin-top: 110px;
+}
+
+.isi2{
 	justify-content:center;
 	margin: 0 auto;
 	width: 550px;
@@ -112,12 +125,15 @@ html {
 }
 
 #desc, #desc2{
-	text-align: justify;
 	font-weight: 200;
 	animation: kedip 5s;
 	font-size: 20px;
 	color: #8892af;
 	margin-top: 20px;
+}
+
+#desc2{
+	text-align: justify;
 }
 
 i{
@@ -158,15 +174,12 @@ img{
 	.atas{
 		height:7%;
 	}
-	.isi{
-		margin-top: 90px;
-	}
-	.isi, .next, .prev{
+	.isi, .isi2, .next, .prev{
 		width: 70%;
 	}
-	#blok1{
-		margin-top: 100px;
-	}	
+	.isi2{
+		margin-top: 60px;
+	}
 }
 
 @media (min-width: 321px) and (max-width: 480px) {
@@ -189,14 +202,11 @@ img{
 	.atas{
 		height:7%;
 	}
-	.isi{
-		margin-top: 110px;
-	}
-	.isi, .next, .prev{
+	.isi, .isi2, .next, .prev{
 		width: 70%;
 	}
-	#blok1{
-		margin-top: 100px;
+	.isi2{
+		margin-top: 60px;
 	}
 }
 
@@ -220,13 +230,10 @@ img{
 	.atas{
 		height:7%;
 	}
-	.isi{
-		margin-top: 110px;
-	}
-	.isi, .next, .prev{
+	.isi, .isi2, .next, .prev{
 		width: 80%;
 	}
-	#blok1{
-		margin-top: 100px;
+	.isi2{
+		margin-top: 60px;
 	}
 }
