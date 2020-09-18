@@ -12,6 +12,10 @@ html {
 	margin-top: 160px;
 }
 
+.warnaHijau{
+	color: #63ffda;
+}
+
 .atas{
 	top: 0;
 	left: 0;
@@ -150,7 +154,7 @@ img{
 
 	#isi_atas{
 		padding-left: 0px;
-		padding-top: 5px;
+		padding-top: 7px;
 	}
 
 	#isi_atas2{
@@ -183,7 +187,7 @@ img{
 
 	#isi_atas{
 		padding-left: 0px;
-		padding-top: 8px;
+		padding-top: 10px;
 	}
 
 	#isi_atas2{
@@ -217,7 +221,7 @@ img{
 
 	#isi_atas{
 		padding-left: 0px;
-		padding-top: 11px;
+		padding-top: 13px;
 	}
 
 	#isi_atas2{
