@@ -40,6 +40,6 @@ html{
 }
 
 
-#isi_header:active{
+#isi_header:active, #isi_header:hover{
     color: #d8232a;
 }
