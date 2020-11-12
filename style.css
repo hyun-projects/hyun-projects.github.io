@@ -117,6 +117,11 @@ html{
     transition: 0.5s;
 }
 
+.isi_main ul li p a{
+    color:rgb(236, 39, 39);
+    text-decoration: none;
+}
+
 .isi_main img{
 	width:500px;
 }
