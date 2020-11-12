@@ -113,7 +113,7 @@ html{
 }
 
 .isi_main ul ol li p a:hover{
-    color: #db437d;
+    color: #e6afb1;
     transition: 0.5s;
 }
 
@@ -156,4 +156,20 @@ hr{
 	background-color: #bebebe;
 	height:1px;
 	border:0
+}
+
+
+#tombol{
+	font-weight: 100;
+	padding: 10px;
+	border: 2px solid #d8232a;
+	color: white;
+	text-decoration: none;
+	border-radius:3px;
+	transition: .5s;
+}
+
+#tombol:hover{
+	color: white;
+	background-color: #d8232a;
 }
