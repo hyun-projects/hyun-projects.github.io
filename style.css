@@ -107,14 +107,18 @@ html{
     font-size: 20px;
 }
 
-.isi_main ul li p a{
+.isi_main ul ol li p a{
     text-decoration: none;
     color: #d8232a;
 }
 
-.isi_main ul li p a:hover{
+.isi_main ul ol li p a:hover{
     color: #db437d;
     transition: 0.5s;
+}
+
+.isi_main img{
+	width:500px;
 }
 
 .isi_anggota{
@@ -143,8 +147,8 @@ html{
 }
 
 hr{
-    color: #bebebe;
+	color: #bebebe;
 	background-color: #bebebe;
 	height:1px;
-	border:0;
+	border:0
 }
