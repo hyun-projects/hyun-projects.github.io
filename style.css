@@ -4,11 +4,13 @@ html{
     -webkit-font-smoothing: antialiased;
     font-family: 'IBM Plex Sans', sans-serif;
 }
+
 #logo{
     padding-top: 8px;
     height: 57px;
     width: 214px;
 }
+
 .header{
     top: 0;
 	left: 0;
@@ -41,6 +43,7 @@ html{
     padding-left: 25px;
     display: inline;
     color: #f1f2f3;
+    transition: 0.5s;
 }
 
 .aktif{
@@ -48,12 +51,12 @@ html{
 }
 
 #isi_header:hover{
-    transition: .5s;
     color: #d8232a;
 }
 
 .main{
     margin-top: 150px;
+    margin-bottom: 50px;
 }
 
 .page_main{
@@ -110,11 +113,11 @@ html{
 .isi_main a{
     text-decoration: none;
     color: #d8232a;
+    transition: 0.5s;
 }
 
 .isi_main a:hover{
-    color: #e6afb1;
-    transition: 0.5s;
+    color: #e6afb1; 
 }
 
 .isi_main img{
@@ -170,4 +173,23 @@ hr{
     color: black;
     border: 2px solid #e6afb1;
 	background-color: #e6afb1;
+}
+
+.alternatif img {
+    width: 500px;
+    height: 300px;
+    font-size: 20px;
+}
+
+.alternatif p {
+    font-size: 20px;
+}
+
+.alternatif ul li {
+    font-size: 20px;
+}
+
+.pertombolan{
+    margin: 50px 0;
+    text-align: center;
 }
