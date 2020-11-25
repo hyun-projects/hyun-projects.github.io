@@ -72,8 +72,8 @@ html{
 .page_main2 hr{
     width: 75%;
     color: #bebebe;
-	background-color: #bebebe;
-	height:1px;
+    background-color: #bebebe;
+    height:1px;
     border:0;
 }
 
@@ -108,7 +108,7 @@ html{
 .isi_main img{
     border: 3px solid #d8232a;
     margin: 10px 0;
-	width:500px;
+    width:500px;
 }
 
 .isi_anggota{
@@ -142,27 +142,27 @@ html{
 }
 
 hr{
-	color: #bebebe;
-	background-color: #bebebe;
-	height:1px;
-	border:0
+    color: #bebebe;
+    background-color: #bebebe;
+    height:1px;
+    border:0
 }
 
 
 #tombol{
-	font-weight: 100;
-	padding: 10px;
-	border: 2px solid #d8232a;
-	color: white;
-	text-decoration: none;
-	border-radius:3px;
-	transition: .5s;
+    font-weight: 100;
+    padding: 10px;
+    border: 2px solid #d8232a;
+    color: white;
+    text-decoration: none;
+    border-radius:3px;
+    transition: .5s;
 }
 
 #tombol:hover{
     color: black;
     border: 2px solid #e6afb1;
-	background-color: #e6afb1;
+    background-color: #e6afb1;
 }
 
 .alternatif img {
