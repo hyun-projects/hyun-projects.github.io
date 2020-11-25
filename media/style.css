@@ -5,6 +5,10 @@ html{
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
+#bg{
+    background-image: url(bg.png);
+}
+
 #logo{
     padding-top: 8px;
     height: 57px;
